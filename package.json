@@ -1,0 +1,19 @@
+{
+  "name": "ai-in-frontend",
+  "version": "1.0.0",
+  "description": "Here it begins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devtools-Tech-Team/ai-in-frontend.git"
+  },
+  "author": "Yomesh Gupta<yomesh.gupta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devtools-Tech-Team/ai-in-frontend/issues"
+  },
+  "homepage": "https://github.com/Devtools-Tech-Team/ai-in-frontend#readme"
+}
