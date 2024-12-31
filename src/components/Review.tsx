@@ -10,13 +10,13 @@ const Review = ({
   isGenerating: boolean;
 }) => {
   return (
-    <div className="h-full w-6/12 relative">
+    <div className="h-full w-6/12 relative overflow-scroll">
       {isGenerating ? (
         <Loader />
       ) : (
         <MarkdownPreview
           source={review}
-          style={{ fontSize: "30px", height: "100vh" }}
+          style={{ fontSize: "30px", minHeight: "100vh", padding: "20px" }}
         />
       )}
     </div>
