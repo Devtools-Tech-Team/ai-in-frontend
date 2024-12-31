@@ -4,8 +4,10 @@ function App() {
   return (
     <div className="flex h-full w-full items-center justify-center overflow-hidden">
       <div className="flex flex-row h-full w-full bg-black justify-center content-center">
-        <div className="self-center">
-          <h1 className="text-8xl">Let us build a Code Reviewer</h1>
+        <div className="self-center text-center">
+          <h1 className="text-8xl">
+            How I started with AI as a frontend engineer?
+          </h1>
           <a
             href="https://youtube.com/devtoolstech"
             target="_blank"
