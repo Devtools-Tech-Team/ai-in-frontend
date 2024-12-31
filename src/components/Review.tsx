@@ -1,10 +1,10 @@
 import MarkdownPreview from "@uiw/react-markdown-preview";
 
-const Review = () => {
+const Review = ({ review }: { review: string }) => {
   return (
     <div className="h-full w-6/12 relative">
       <MarkdownPreview
-        source={"# Review would be here"}
+        source={review}
         style={{ fontSize: "30px", height: "100vh" }}
       />
     </div>
